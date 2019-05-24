@@ -5,7 +5,7 @@ public class Hashtable {
     int size;
 
     public Hashtable(){
-        max = 250000;
+        max = 1000000;
         buckets = new HashNode[max];
         size = 0;
     }
